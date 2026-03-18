@@ -91,7 +91,7 @@ const Hero: React.FC = () => {
               <img 
                 src="/PortFolio/images/hero.jpeg" 
                 alt="Dhanush M" 
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover transition-all duration-700"
               />
               
               <div className="absolute bottom-4 right-4 glass-card px-4 py-2 rounded-xl border border-white/10 shadow-lg backdrop-blur-md">
