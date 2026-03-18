@@ -74,7 +74,7 @@ const Hero: React.FC = () => {
                 className="text-neutral-400 hover:text-green-500 transition-all transform hover:-translate-y-1"
                 aria-label={social.name}
               >
-                {React.cloneElement(social.icon as React.ReactElement<any>, { size: 20 })}
+                <>{social.icon}</>
               </a>
             ))}
           </SectionReveal>
@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
             {/* Reduced Dimensions: w-[250px] sm:w-[280px] lg:w-[340px] */}
             <div className="relative w-[250px] h-[315px] sm:w-[280px] sm:h-[350px] lg:w-[340px] lg:h-[425px] rounded-3xl overflow-hidden shadow-2xl bg-neutral-900 border border-white/5 aspect-[4/5]">
               <img 
-                src="/images/hero.jpeg" 
+                src="./images/hero.jpeg" 
                 alt="Dhanush M" 
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
               />
