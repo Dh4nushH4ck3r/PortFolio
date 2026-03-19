@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
             {/* Reduced Dimensions: w-[250px] sm:w-[280px] lg:w-[340px] */}
             <div className="relative w-[250px] h-[315px] sm:w-[280px] sm:h-[350px] lg:w-[340px] lg:h-[425px] rounded-3xl overflow-hidden shadow-2xl bg-neutral-900 border border-white/5 aspect-[4/5]">
               <img 
-                src="/images/hero.jpeg" 
+                src="/PortFolio/images/hero.jpeg" 
                 alt="Dhanush M" 
                 className="w-full h-full object-cover transition-all duration-700"
               />
