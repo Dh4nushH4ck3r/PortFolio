@@ -19,7 +19,7 @@ const About: React.FC = () => {
             {/* Reduced Dimensions: w-[250px] sm:w-[280px] lg:w-[340px] */}
             <div className="relative w-[250px] h-[315px] sm:w-[280px] sm:h-[350px] lg:w-[340px] lg:h-[425px] rounded-3xl overflow-hidden shadow-2xl aspect-[4/5]">
               <img 
-                src="/PortFolio/images/about.jpg" 
+                src="/images/about.jpg" 
                 alt="About Dhanush" 
                 className="w-full h-full object-cover transition-all duration-700"
               />
