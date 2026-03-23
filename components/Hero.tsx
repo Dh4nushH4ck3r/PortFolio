@@ -46,8 +46,8 @@ const Hero: React.FC = () => {
               onClick={() => {
                 // Replace '/resume.pdf' with your actual CV file path
                 const link = document.createElement('a');
-                link.href = '/resume.pdf';
-                link.download = 'Dhanush_M_Resume.pdf';
+                link.href = '../dhanush_m.pdf';
+                link.download = 'dhanush_m.pdf';
                 link.click();
               }}
               className="flex items-center space-x-2 bg-green-500 hover:bg-neutral-900 hover:text-white dark:hover:bg-white dark:hover:text-black text-black px-8 py-3 rounded-lg font-black transition-all transform hover:-translate-y-1 active:scale-95 shadow-lg shadow-green-500/20 uppercase tracking-widest text-[10px] sm:text-[11px]"
@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
             {/* Reduced Dimensions: w-[250px] sm:w-[280px] lg:w-[340px] */}
             <div className="relative w-[250px] h-[315px] sm:w-[280px] sm:h-[350px] lg:w-[340px] lg:h-[425px] rounded-3xl overflow-hidden shadow-2xl bg-neutral-900 border border-white/5 aspect-[4/5]">
               <img 
-                src="/PortFolio/images/hero.jpeg" 
+                src="/images/hero.jpeg" 
                 alt="Dhanush M" 
                 className="w-full h-full object-cover transition-all duration-700"
               />
